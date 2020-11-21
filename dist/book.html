@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/main.css" />
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <!-- API HERE -->
+    <script src="./js/book.js"></script>
     <title>Book your robotaxi</title>
   </head>
   <body>
@@ -105,7 +108,7 @@
           <div class="booking--form--map">
             <h3>Map</h3>
             <div class="form--location">
-              <div id="map" class="map"></div>
+              <div id="map"></div>
 
               <div class="input--group">
                 <label class="form--label">Distance</label
@@ -125,11 +128,5 @@
         </div>
       </form>
     </div>
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-    <script
-      src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initAutocomplete&libraries=places&v=weekly"
-      defer
-    ></script>
-    <script src="./js/book.js"></script>
   </body>
 </html>

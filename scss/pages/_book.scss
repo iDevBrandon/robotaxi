@@ -130,14 +130,14 @@
     @media (min-width: 600px) {
       grid-column-start: 2;
     }
+  }
+}
 
-    .map {
-      height: 20rem;
-      width: 100%;
-      @media (min-width: 600px) {
-        height: 22.5rem;
-      }
-    }
+#map {
+  height: 20rem;
+  width: 100%;
+  @media (min-width: 600px) {
+    height: 22.5rem;
   }
 }
 
