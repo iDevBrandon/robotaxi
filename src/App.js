@@ -1,10 +1,13 @@
-import Slider from "./components/Slider/Slider";
+import Header from "./components/Header";
+import { BrowserRouter as Router } from "react-router-dom";
+import GlobalStyle from "./globalStyles";
 
 function App() {
   return (
-    <div className="App">
-      <Slider />
-    </div>
+    <Router>
+      <GlobalStyle />
+      <Header />
+    </Router>
   );
 }
 
